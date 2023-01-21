@@ -87,6 +87,11 @@ public:
         installed = false;
     }
 
+    bool is_installed() const
+    {
+        return installed;
+    }
+
 
 private:
     bool installed = false;
